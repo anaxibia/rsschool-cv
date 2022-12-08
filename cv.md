@@ -14,6 +14,8 @@ _beginner user:_
 * CSS 
 * JavaScript 
 * Git/GitHub
+* Discord
+
 ---
 ## **Code example:**
 ```
