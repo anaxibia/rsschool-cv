@@ -26,7 +26,7 @@
         </header>
         <main class="main">
             <div class="container main_container">
-                <section class="section sectio_profile" id="profile">
+                <section class="section section_profile section_full_width" id="profile">
                     <img src="assets/images/avatar.jpg" alt="avatar" class="section_profile_logo">
                     <div class="section_profile_title">
                         <h1 class="section_title main_title">Hanna Kuzmiankova</h1>
@@ -78,24 +78,22 @@
                         </li>
                     </ul>
                 </section>
-                <section class="section" id="code">
+                <section class="section section_full_width section_code" id="code">
                     <h2 class="section_title">Code example</h2>
-                    <p>
+                    <pre>
                         <code>
-                            <pre>
-                                function bubbleSort(array) {
-                                    for (let i = 0; i < array.length; i++) {
-                                        for (let j = 0; j < array.length - i - 1; j++) {
-                                            if (array[j + 1] < array[j]) {
-                                                [array[j + 1], array[j]] = [array[j], array[j + 1]];
-                                            }
-                                        }
-                                    }
-                                    return array;
-                                }
-                            </pre>
+function bubbleSort(array) {
+    for (let i = 0; i &lt; array.length; i++) {
+        for (let j = 0; j &lt; array.length - i - 1; j++) {
+            if (array[j + 1] &lt; array[j]) {
+                [array[j + 1], array[j]] = [array[j], array[j + 1]];
+            }
+        }
+    }
+    return array;
+}
                         </code>
-                    </p>
+                    </pre>
                 </section>
                 <section class="section" id="experience">
                     <h2 class="section_title">Work experience</h2>
@@ -118,7 +116,7 @@
                         </li>
                     </ul>
                 </section>
-                <section class="section" id="languages">
+                <section class="section section_languages" id="languages">
                     <h2 class="section_title">Languages</h2>
                     <ul class="section_list">
                         <li class="section_item">
@@ -129,21 +127,6 @@
                         </li>
                     </ul>
                 </section>
-                <article>
-                    <h2>About me:</h2>
-                    <p>
-                        After graduating from university, I worked as an accountant in a bank for 4 years. In this direction, in
-                        such a short time, I achieved a certain growth and realized that I want to try myself in another area.
-                        At the moment, the IT sphere is a promising industry all over the world. Therefore, I would like to
-                        realize my potential in IT and contribute to the development of the Javascript community.
-                    </p>
-                </article>
-                <aside>
-                    <h2>Work experience:</h2>
-                    <ul>
-                        <li>JSC Belagroprombank (apr. 2014 - mar. 2018) accountant of department of intrabank operations</li>
-                    </ul>
-                </aside>
             </div>
 
         </main>
@@ -161,7 +144,7 @@
                 </div>
                 <div class="footer_logo">
                     <a href="https://rs.school/js">
-                        <img src="assets/images/logo.jpg" alt="logo"/>
+                        <img class="footer_logo_image" src="assets/images/logo-rs.svg" alt="logo"/>
                     </a>
                 </div>
             </div>
