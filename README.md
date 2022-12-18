@@ -1,1 +1,1 @@
-# rsschool-cv
+https://anaxibia.github.io/rsschool-cv/
