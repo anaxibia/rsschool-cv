@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CV</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header_container">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                        <li class="nav_item"><a href="#summary" class="nav_link">Summary</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#code" class="nav_link">Code example</a></li>
+                        <li class="nav_item"><a href="#experience" class="nav_link">Work experience</a></li>
+                        <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                        <li class="nav_item"><a href="#languages" class="nav_link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main_container">
+                <section class="section section_profile section_full_width" id="profile">
+                    <img src="assets/images/avatar1" alt="avatar" class="section_profile_logo">
+                    <div class="section_profile_title">
+                        <h1 class="section_title main_title">Hanna Kuzmiankova</h1>
+                        <h3 class="section_subtitle">Junior Front-End Developer</h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section_title">Contact Information</h2>
+                    <ul class="section_list">
+                        <li class="section_item contacts_item">
+                            Phone: <a href="tel:+48451644468" title="phone">+48 451 644 468</a>
+                        </li>
+                        <li class="section_item contacts_item">
+                            Email: <a href="mailto:anaxibia.m@gmail.com" title="email">anaxibia.m@gmail.com</a>
+                        </li>
+                        <li class="section_item contacts_item">
+                            Github: <a href="https://github.com/anaxibia" title="Github">anaxibia</a>
+                        </li>
+                        <li class="section_item contacts_item">
+                            Discord: @anaxibia_2025
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section_title">About me</h2>
+                    <p>
+                        After graduating from university, I worked as an accountant in a bank for 4 years. In this direction, in such a short time, I achieved a certain growth and realized that I want to try myself in another area. At the moment, the IT sphere is a promising industry all over the world. Therefore, I would like to realize my potential in IT and contribute to the development of the Javascript community.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section_title">Skills</h2>
+                    <ul class="section_list">
+                            <ul class="section_list">
+                                <li class="section_item">
+                                    HTML
+                                </li>
+                                <li class="section_item">
+                                    CSS
+                                </li>
+                                <li class="section_item">
+                                    JavaScript
+                                </li>
+                                <li class="section_item">
+                                    Git/GitHub
+                                </li>
+                                <li class="section_item">
+                                    Testing and Debugging
+                                </li>
+                            </ul>
+                    </ul>
+                </section>
+                <section class="section section_full_width section_code" id="code">
+                    <h2 class="section_title">Code example</h2>
+                    <pre>
+                        <code>
+function bubbleSort(array) {
+    for (let i = 0; i &lt; array.length; i++) {
+        for (let j = 0; j &lt; array.length - i - 1; j++) {
+            if (array[j + 1] &lt; array[j]) {
+                [array[j + 1], array[j]] = [array[j], array[j + 1]];
+            }
+        }
+    }
+    return array;
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="section" id="experience">
+                    <h2 class="section_title">Work experience</h2>
+                    <ul class="section_list">
+                        <li class="section_item">
+                            JSC Belagroprombank (apr. 2014 - mar. 2018) accountant of department of intrabank operations
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section_title">Education</h2>
+                    <ul class="section_list">
+                        <li class="section_item">
+                            Sukhoi State Technical University of Gomel (2010-2014)
+                            <ul class="section_list">
+                                <li class="section_item">
+                                    Economy and Management
+                                </li>
+                            </ul>
+                                <li class ="section_item">
+                                    Udemy Course “Software testing from scratch to specialist”
+                                    09.2023-11.2023;
+                                </li>
+                                <li class ="section_item">
+                                    Clevertec “System Analysis Course”
+                                    05.2024-07.2024;
+                                </li>
+                                <li class ="section_item">
+                                    Udemy Course “100 Days of Code – 2024 Web Development Bootcamp”
+                                    08.2024-12.2024;
+                                </li>
+
+                        </li>
+                    </ul>
+                </section>
+                <section class="section section_languages" id="languages">
+                    <h2 class="section_title">Languages</h2>
+                    <ul class="section_list">
+                        <li class="section_item">
+                            Russian - Native
+                        </li>
+                        <li class="section_item">
+                            English - B1
+                        </li>
+                        <li class="section_item">
+                            Polish - A1
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container footer_container">
+                <div class="footer_copyright">
+                    <ul>
+                        <li>
+                            © 2025
+                        </li>
+                        <li>
+                            Github: <a href="https://github.com/anaxibia" title="Github">anaxibia</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_logo">
+                    <a href="https://rs.school/js">
+                        <img class="footer_logo_image" src="assets/images/logo-rs.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
