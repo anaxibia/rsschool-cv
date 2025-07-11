@@ -1,1 +1,1 @@
-[CV Link](https://anaxibia.github.io/rsschool-cv/cv.md)
+[CV Link](https://anaxibia.github.io/rsschool-cv/cv)
