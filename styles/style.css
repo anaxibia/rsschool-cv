@@ -28,3 +28,81 @@
   font-weight: 400;
   font-style: italic;
 }
+
+:root {
+  --main-bg-color: #e6e2d4;
+  --main-bg-color-selected: rgb(236, 210, 122, 0.7);
+  --font-link-primary-color: #9d8c51;
+  --font-secondary-color: #ffffff;
+  --font-link-primary-selected-color: #4d2323;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Position */
+  margin: 0;
+  padding: 0;
+  /* Block */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  /* Typography */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+
+p {
+  color: #000000;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  display: block;
+}
+
+a {
+  color: var(--font-link-primary-color);
+  transition: color 0.5s ease-in;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--font-link-primary-selected-color);
+}
+
+header,
+footer {
+  background-color: var(--main-bg-color);
+  color: var(--font-primary-color);
+  transition: all 0.5s ease-in;
+}
+
+header .nav_item {
+  background-color: var(--main-bg-color);
+}
+
+header .nav_item:hover {
+  background-color: var(--main-bg-color-selected);
+}
+
